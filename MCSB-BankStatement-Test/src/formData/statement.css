@@ -1,0 +1,42 @@
+/* Style for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table header */
+.table th {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for table rows */
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style for alternating row colors */
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for the first column */
+.table td:nth-child(1),
+.table th:nth-child(1) {
+  width: 33%;
+}
+
+/* Style for the second column */
+.table td:nth-child(2),
+.table th:nth-child(2) {
+  width: 33%;
+}
+
+/* Style for the third column */
+.table td:nth-child(3),
+.table th:nth-child(3) {
+  width: 33%;
+}
